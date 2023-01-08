@@ -1,0 +1,178 @@
+/* Geral */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  padding-bottom: 3rem;
+  background-image: linear-gradient(
+    to left,
+    #dca8e0,
+    #b2b8fc,
+    #75c9ff,
+    #3ad6f6,
+    #48ddd4,
+    #38dacc,
+    #24d6c4,
+    #00d3bc,
+    #00c6dc,
+    #00b5fa,
+    #009eff,
+    #5f7dfb
+  );
+}
+
+header {
+  width: 100%;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+header h1 {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem 0.5rem;
+  border-radius: 0.2rem 0 0.2rem 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 5px 7px;
+  background: #008fa2;
+}
+
+/* Adicionando tarefas */
+#box-add-tasks,
+#tasks-container {
+  background: #dbf2fb;
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+
+/* Div do input e botão */
+.input-control {
+  display: flex;
+  gap: 0.1rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Input */
+.input-control input {
+  width: 100%;
+  padding: 0.5rem 0.3rem;
+  border: 2px solid #aa8fce;
+  border-radius: 0.3rem 0 0 0.3rem;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.input-control input:focus {
+  border-color: #068167;
+}
+
+/* Botão */
+.input-control button {
+  padding: 0.6rem 0.8rem;
+  border: 2px solid #aa8fce;
+  border-radius: 0 0.3rem 0.3rem 0;
+  color: #068167;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.2s;
+  font-size: 1rem;
+}
+
+.input-control button:hover {
+  border-color: #068167;
+  color: #aa8fce;
+}
+
+.input-control button:hover,
+.input-control input:hover {
+  opacity: 1;
+}
+
+/* Mensagem */
+#message {
+  padding: 0.1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(223, 44, 44, 0.936);
+  min-height: 0.8rem;
+}
+
+/* Container das tarefas */
+#tasks-container {
+  margin-top: 1rem;
+}
+
+/* Tarefas */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.2rem 0 0.2rem 0;
+  background: #b5d4e0c9;
+  margin-bottom: 0.3rem;
+  min-height: 1rem;
+}
+
+.task p {
+  color: #068167;
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.task p:hover {
+  opacity: 1;
+}
+
+.buttons-controls {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.task i {
+  padding: 0.5rem;
+  color: #068167;
+  font-size: 0.8rem;
+  border: 1px solid #7092d0;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.task i:hover {
+  border-color: #068167;
+  color: #7092d0;
+}
+
+/* Utilitários */
+.hide {
+  display: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+@media (max-width: 535px) {
+  #container {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 430px) {
+  #container {
+    max-width: 300px;
+  }
+}
