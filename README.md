@@ -1,4 +1,4 @@
-# A lista de tarefas! - ![image](https://img.shields.io/badge/-concluded-green)
+# A lista de tarefas - ![image](https://img.shields.io/badge/-concluded-green)
 
 - Neste projeto você poderá realizar controles de suas tarefas.
 - Ao inserir as tarefas você poderá:
@@ -15,12 +15,17 @@
 <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
 
+# Deploy: 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c301caf2-23cd-49e3-9d37-07be1f41d25c/deploy-status)](https://app.netlify.com/sites/ttask-listt/deploys)
+
+- Link para acesso: https://ttask-listt.netlify.app/
+
 # Layout:
 
-![image](../the-task-list/imgs/Captura%20de%20tela%202023-01-08%20132528.jpg)
+![image](https://user-images.githubusercontent.com/100312812/211208764-1a2cb539-ba91-4c15-9d09-8130366df954.png)
 
 # Responsivo:
 
-![image](../the-task-list/imgs/responsivo.jpg)
+![image](https://user-images.githubusercontent.com/100312812/211208751-b8eb15da-a583-48be-9d5f-cf703dfe4c36.png)
 
 <br>
