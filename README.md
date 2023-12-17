@@ -1,4 +1,4 @@
-# A lista de tarefas - ![image](https://img.shields.io/badge/-concluded-green)
+# A lista de tarefas
 
 - Neste projeto você poderá realizar controles de suas tarefas.
 - Ao inserir as tarefas você poderá:
@@ -20,7 +20,7 @@
 
 - Link para acesso: https://ttask-listt.netlify.app/
 
-# Layout:
+<br>
 
 ![image](https://user-images.githubusercontent.com/100312812/211208764-1a2cb539-ba91-4c15-9d09-8130366df954.png)
 
