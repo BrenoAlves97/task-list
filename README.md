@@ -15,10 +15,9 @@
 <img align="center" alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
 
-# Deploy: 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c301caf2-23cd-49e3-9d37-07be1f41d25c/deploy-status)](https://app.netlify.com/sites/ttask-listt/deploys)
+<br><br>
 
-- Link para acesso: https://ttask-listt.netlify.app/
+Acesso em https://ttask-listt.netlify.app/
 
 <br>
 
